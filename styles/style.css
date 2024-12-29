@@ -46,7 +46,7 @@
   background-color: var(--main-text-color);
   border-radius: 50%;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 11px;
 }
 
 .decorated-zone::before {
