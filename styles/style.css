@@ -13,7 +13,6 @@
 .header {
   display: flex;
   flex-direction: column;
-  color: var(--main-text-color);
   position: relative;
   block-size: max(100dvb, 668px);
   margin-left: 10px;
@@ -36,7 +35,7 @@
 .hidden_rec::before {
   content: "REC";
   display: inline-block;
-  color: var(--main-text-color);
+  color: var(--color-background-text);
 }
 
 .hidden_rec::after {
@@ -45,7 +44,7 @@
   width: 13px;
   height: 13px;
   margin-left: 6px;
-  background-color: var(--main-text-color);
+  background-color: var(--color-background-text);
   border-radius: 50%;
   vertical-align: middle;
   margin-right: 11px;
@@ -54,8 +53,8 @@
 .decorated-zone::before {
   content: "";
   position: absolute;
-  border-block-start: 1px solid var(--main-text-color);
-  border-inline-end: 1px solid var(--main-text-color);
+  border-block-start: 1px solid var(--color-background-text);
+  border-inline-end: 1px solid var(--color-background-text);
   inline-size: 25px;
   block-size: 25px;
   top: 0;
@@ -65,8 +64,8 @@
 .decorated-zone::after {
   content: "";
   position: absolute;
-  border-block-end: 1px solid var(--main-text-color);
-  border-inline-start: 1px solid var(--main-text-color);
+  border-block-end: 1px solid var(--color-background-text);
+  border-inline-start: 1px solid var(--color-background-text);
   inline-size: 25px;
   block-size: 25px;
   bottom: 21px;
@@ -76,7 +75,6 @@
 .header__theme-menu {
   display: flex;
   justify-content: flex-end;
-
 }
 
 .header__theme-menu-item {
@@ -93,7 +91,7 @@
 
 .header__theme-menu-button {
   background-color: transparent;
-  color: var(--color-text);
+  color: var(--color-background-text);
   font-family: IBM Flex Mono, sans-serif;
   border: none;
   line-height: 18px;
@@ -101,7 +99,7 @@
   padding: 2px 17px 6px;
 }
 
- .header__theme-menu-button_type_auto {
+.header__theme-menu-button_type_auto {
   pointer-events: none;
 }
 
@@ -114,10 +112,9 @@
   text-decoration: underline;
 }
 
-
 .title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  text-shadow: 4px 4px 0 var(--main-text-color);
+  text-shadow: 4px 4px 0 var(--color-background-text-decor);
   color: var(--h1-color-background);
   font-family: var(--font-family-mono), sans-serif;
   line-height: 95.7px;
@@ -126,8 +123,7 @@
 }
 
 .title-decor {
-  background-color: var(--color-background);
-  color: var(--main-title-decor-text-color);
+  background-color: var(--color-background-text-h);
   font-size: var(--font-size-base);
   font-family: var(--font-family-mono), sans-serif;
   line-height: var(--line-height-base);
@@ -229,23 +225,21 @@
 }
 
 .headline {
-  color: var(--main-text-color);
+  color: var(--color-background-text);
   font-weight: 400;
   font-size: var(--font-size-base);
 }
 
 .title__subtitle {
-  background-color: var(--color-background);
+  background-color: var(--color-background-text-h);
   font-weight: 700;
   font-size: var(--font-size-base);
-  color: var(--h3-about-text-color);
 }
 
 .headline__subtitle {
-  background-color: var(--color-background);
+  background-color: var(--color-background-text-h);
   font-weight: 400;
   margin-block-start: -8px;
-  color: var(--main-title-decor-text-color);
 }
 
 .about__text {
@@ -255,7 +249,7 @@
 }
 
 .shadow_link {
-  text-shadow: -2px -2px 0 var(--main-text-color);
+  text-shadow: -2px -2px 0 var(--color-background-text);
   text-decoration: none;
 }
 
@@ -477,8 +471,8 @@
 .decorated-zone-1::before {
   content: "";
   position: absolute;
-  border-block-start: 1px solid var(--main-text-color);
-  border-inline-end: 1px solid var(--main-text-color);
+  border-block-start: 1px solid var(--color-background-text-decor);
+  border-inline-end: 1px solid var(--color-background-text-decor);
   inline-size: 25px;
   block-size: 25px;
   top: 17px;
@@ -488,8 +482,8 @@
 .decorated-zone-1::after {
   content: "";
   position: absolute;
-  border-block-end: 1px solid var(--main-text-color);
-  border-inline-start: 1px solid var(--main-text-color);
+  border-block-end: 1px solid var(--color-background-text-decor);
+  border-inline-start: 1px solid var(--color-background-text-decor);
   inline-size: 25px;
   block-size: 25px;
   bottom: 10px;

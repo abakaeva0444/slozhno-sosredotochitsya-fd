@@ -1,15 +1,22 @@
 :root.theme-light {
   /* Цвета */
-  --color-background: rgba(255, 141, 203, 1);
-  --main-text-color: rgba(53, 52, 48, 1);
+  --background-color-fon: rgba(255, 141, 203, 1);
   --h1-color-background: rgba(255, 194, 230, 1);
-  --about-text-color: rgba(53, 52, 48, 1);
   --h1-color-text-shadow: rgba(255, 141, 203, 1);
-  --h3-about-text-color: rgba(53, 52, 48, 1);
+  --about-text-color: rgba(53, 52, 48, 1);
+  --color-background-text: rgba(53, 52, 48, 1);
+  --color-background-text-h :rgba(255, 141, 203, 1);
+
+  
+  
 
 
   /* Фоновое изображение заголовка */
   --background-header: url(../images/cover-image-light.png);
+}
+
+.theme-light .page {
+  background-color: var(--background-color-fon);
 }
 
 .theme-light .hidden_rec::before {
@@ -27,7 +34,7 @@
 }
 
 .theme-light .header__theme-menu-button_type_light {
-  outline: 1px solid var(--main-text-color);
+  outline: 1px solid var(--color-background-text-decor);
   outline-offset: -1px;
   width: 70px;
   height: 26px;
@@ -38,7 +45,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--main-text-color);
+  outline: 1px solid var(--color-background-text-decor);
   outline-offset: 1px;
 }
 
@@ -58,8 +65,8 @@
 @media (prefers-color-scheme: light) {
   :root {
     /* Цвета */
-    --color-background: rgba(255, 141, 203, 1);
-    --main-text-color: rgba(53, 52, 48, 1);
+    --color-background-fon: rgba(255, 141, 203, 1);
+    --color-background-text-decor: rgba(53, 52, 48, 1);
     --h1-color-background: rgba(255, 194, 230, 1);
     --about-text-color: rgba(53, 52, 48, 1);
 
