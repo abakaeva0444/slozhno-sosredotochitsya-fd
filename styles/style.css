@@ -76,7 +76,7 @@
 .header__theme-menu {
   display: flex;
   justify-content: flex-end;
-  margin-top: 27px;
+
 }
 
 .header__theme-menu-item {
@@ -101,6 +101,10 @@
   padding: 2px 17px 6px;
 }
 
+ .header__theme-menu-button_type_auto {
+  pointer-events: none;
+}
+
 .header__theme-menu-button:hover {
   outline: 1px solid rgba(255, 0, 112, 0.4);
   outline-offset: 1px;
@@ -110,9 +114,6 @@
   text-decoration: underline;
 }
 
-.header__theme-menu-button_active {
-  pointer-events: none;
-}
 
 .title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -237,6 +238,7 @@
   background-color: var(--color-background);
   font-weight: 700;
   font-size: var(--font-size-base);
+  color: var(--h3-about-text-color);
 }
 
 .headline__subtitle {

@@ -4,6 +4,9 @@
   --main-text-color: rgba(53, 52, 48, 1);
   --h1-color-background: rgba(255, 194, 230, 1);
   --about-text-color: rgba(53, 52, 48, 1);
+  --h1-color-text-shadow: rgba(255, 141, 203, 1);
+  --h3-about-text-color: rgba(53, 52, 48, 1);
+
 
   /* Фоновое изображение заголовка */
   --background-header: url(../images/cover-image-light.png);
@@ -24,8 +27,8 @@
 }
 
 .theme-light .header__theme-menu-button_type_light {
-  outline: 2px solid var(--main-text-color);
-  outline-offset: 2px;
+  outline: 1px solid var(--main-text-color);
+  outline-offset: -1px;
   width: 70px;
   height: 26px;
 }
@@ -39,8 +42,17 @@
   outline-offset: 1px;
 }
 
-.header__theme-menu-button_type_dark {
+.theme-light .header__theme-menu-button_type_dark {
   border: none;
+}
+
+
+.header__theme-menu {
+ margin-top: 52px;
+}
+
+.title {
+  text-shadow: 4px 4px 0 var(--h1-color-text-shadow);
 }
 
 @media (prefers-color-scheme: light) {
