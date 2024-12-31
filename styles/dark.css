@@ -35,25 +35,3 @@
   text-shadow: 4px 4px 0 var(--color-background-text);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* Цвета */
-    --background-color-fon: rgba(0, 0, 40, 1);
-    --h1-color-background: rgba(219, 0, 255, 1);
-    --h1-color-text-shadow: rgba(255, 141, 203, 1);
-    --about-text-color: rgba(241, 178, 206, 1);
-    --main-text-color: rgba(0, 0, 40, 1);
-    --color-background-text: rgba(255, 0, 112, 1);
-    --color-background-text-h: rgba(255, 0, 112, 1);
-
-    /* Размеры шрифта */
-    --font-size-base: 18px;
-    --h1-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-
-    /* Высота строки */
-    --line-height-base: 23.4px;
-
-    /* Фоновое изображение заголовка */
-    --background-header: url(../images/cover-image-dark.png);
-  }
-}

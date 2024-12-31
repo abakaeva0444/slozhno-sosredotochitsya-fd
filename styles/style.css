@@ -1,7 +1,6 @@
 .page {
   background-attachment: fixed;
-  background-image: var(--background-header);
-  background-position: center;
+ background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   font-size: var(--font-size-base);
@@ -99,7 +98,7 @@
   padding: 2px 17px 6px;
 }
 
-.header__theme-menu-button_type_auto {
+.header__theme-menu-button_active {
   pointer-events: none;
 }
 
@@ -129,6 +128,7 @@
   line-height: var(--line-height-base);
   font-weight: bold;
   align-items: start;
+  color: var(--main-text-color);
 }
 
 @media (min-width: 768px) {
@@ -166,7 +166,7 @@
 @media (min-width: 1024px) {
   .decorated-zone::after {
     left: 6px;
-    bottom: -40px;
+    bottom: -20px;
   }
 
   .header__theme-menu {
@@ -234,12 +234,14 @@
   background-color: var(--color-background-text-h);
   font-weight: 700;
   font-size: var(--font-size-base);
+  color: var(--main-text-color);
 }
 
 .headline__subtitle {
   background-color: var(--color-background-text-h);
   font-weight: 400;
   margin-block-start: -8px;
+  color: var(--main-text-color);
 }
 
 .about__text {
