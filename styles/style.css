@@ -469,8 +469,7 @@
   display: grid;
   position: relative;
   justify-items: center;
-  min-height: 100vh;
-  margin: 0;
+   margin: 0;
 }
 
 .decorated-zone-1::before {
@@ -524,13 +523,13 @@
 
 @media (min-width: 1024px) {
   .decorated-zone-1::before {
-    top: 68px;
+    top: 81px;
     right: 20px;
   }
 
   .decorated-zone-1::after {
-    bottom: -127px;
-    left: 19px;
+    bottom: -317px;
+    left: 20px;
   }
 
   .footer-focus {
