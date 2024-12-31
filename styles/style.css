@@ -319,6 +319,7 @@
   .headline {
     grid-column: 1 / -1;
     inline-size: 236px;
+    font-weight: 400px;
   }
 
   .headline__subtitle {
