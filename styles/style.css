@@ -166,7 +166,7 @@
 @media (min-width: 1024px) {
   .decorated-zone::after {
     left: 6px;
-    bottom: -66px;
+    bottom: -40px;
   }
 
   .header__theme-menu {
@@ -371,7 +371,7 @@
 
   .headline {
     min-width: 308px;
-    margin-bottom: 0;
+    margin-bottom: -47px;
   }
 
   .headline-1 {
@@ -381,6 +381,7 @@
   .subtitle {
     grid-row: 2;
     grid-column: auto;
+    margin-top: 43px;
   }
 
   .about {
