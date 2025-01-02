@@ -3,7 +3,7 @@
   --background-color-fon: rgba(255, 241, 247, 1);
   
   --h1-color-background: rgba(255, 194, 230, 1);
-  --h1-color-text-shadow: rgba(255, 141, 203, 1);
+  --h1-color-text-shadow:rgba(255, 141, 203, 1); 
   --about-text-color: rgba(53, 52, 48, 1);
   --color-background-text: rgba(53, 52, 48, 1);
   --color-background-text-h :rgba(255, 141, 203, 1);
@@ -59,9 +59,7 @@
 
 }
 
-.title {
-  text-shadow: 4px 4px 0 var(--h1-color-text-shadow);
-}
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -69,6 +67,7 @@
     --color-background-fon: rgba(255, 141, 203, 1);
     --color-background-text-decor: rgba(53, 52, 48, 1);
     --h1-color-background: rgba(255, 194, 230, 1);
+    --h1-color-text-shadow:rgba(255, 141, 203, 1); 
     --about-text-color: rgba(53, 52, 48, 1);
 
     /* Фоновое изображение заголовка */
